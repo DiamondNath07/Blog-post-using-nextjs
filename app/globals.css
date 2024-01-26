@@ -31,3 +31,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.opencore-bg {
+  @apply bg-[#F8F8F8];
+}
