@@ -21,7 +21,7 @@ const Blog: React.FC = () => {
       />
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 sm:max-w-7xl sm:mx-auto">
         {data.map((blog, index) => (
-          <div className="flex flex-col justify-center items-center mt-24 ">
+          <div key={index} className="flex flex-col justify-center items-center mt-24 ">
             <Card key={index} blog={blog} />
           </div>
         ))}

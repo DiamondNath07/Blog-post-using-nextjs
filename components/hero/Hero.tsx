@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
         className=" mt-4  text-sm sm:text-2xl font-medium sm:max-w-lg "
         style={{ color: "#667085" }}
       >
-        "Immerse yourself in the latest knowledge and research from our team of
+        Immerse yourself in the latest knowledge and research from our team of
         software engineers and design professionals.
       </p>
     </div>

@@ -29,7 +29,7 @@ const Transform: React.FC = () => {
                   <span className="font-bold pl-2 ">Ideas into reality</span>
                 </h1>
                 <p className="max-w-80 mx-auto text-xs mt-4 sm:text-lg">
-                  Let's build something extraordinary together to captivate your
+                  Lets build something extraordinary together to captivate your
                   audience.
                 </p>
               </div>
