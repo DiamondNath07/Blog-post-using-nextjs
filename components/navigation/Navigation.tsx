@@ -1,29 +1,20 @@
 "use client";
 import { useState } from "react";
 import Button from "../commons/Button/Button";
+import BackgroundImage from "../commons/Background/BackgroundImg";
 
 const Navigation: React.FC = () => {
   return (
     <div className="flex flex-col justify-center align-middle">
-      <div
-        className=""
-        style={{
-          backgroundImage: `url("../../assets/Navbg.png")`,
-          backgroundSize: "cover",
-          backgroundPosition: "50% 50%",
-          backgroundRepeat: "no-repeat",
-          rotate: "180deg",
-          height: "100px",
-        }}
-      ></div>
+      <BackgroundImage
+        imageUrl="../../assets/Navbg.png"
+        height="100px"
+        rotate="180deg"
+        showOnSmallScreen={true}
+      />
       <div className="flex justify-center align-middle ">
         <div className="border-2 rounded-full -mt-14 bg-white flex items-center justify-center">
-          <Button
-            variant="primary"
-            bgColor="#FCFCFD"
-            textColor="#294F74"
-     
-          >
+          <Button variant="primary" bgColor="#FCFCFD" textColor="#294F74">
             <img src="../../assets/A.png" alt="Icon" className="w- h-6" />
           </Button>
 
